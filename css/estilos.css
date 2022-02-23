@@ -100,9 +100,12 @@ section h2{
 
 .hobbie img{
     width: 100px;
+    border: 2px solid rgb(1, 123, 139);
+    border-radius: 10px 20px 10px 20px;
 }
 
 .hobbie p{
     text-align: center;
     font-weight: bold;
 }
+

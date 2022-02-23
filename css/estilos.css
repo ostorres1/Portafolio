@@ -22,6 +22,12 @@ h1{
     margin-bottom: 50px;
 }
 
+main{
+    align-content: center;
+    justify-content: center;
+    display: grid;
+}
+
 nav li{
     display: inline;
     margin: 0 0 0 10px;
@@ -37,6 +43,7 @@ nav a{
 
 section{
     margin: 0 25px 50px 25px;
+    width: 1000px;
 }
 
 section h2{

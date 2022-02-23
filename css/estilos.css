@@ -109,3 +109,19 @@ section h2{
     font-weight: bold;
 }
 
+.skills{
+    display: inline-block;
+    padding: 10px;
+    margin: 5px 15px;
+}
+
+.skills img{
+    width: 100px;
+    border: 2px solid rgb(116, 1, 139);
+    border-radius: 20px 10px 20px 10px;
+}
+
+.skills p{
+    text-align: center;
+    font-weight: bold;
+}

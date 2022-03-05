@@ -153,6 +153,13 @@ section h2{
 
 .sena, .alura, .unicafam-google{
     display: inline-block;
+    width: 200px;
+    padding: 10px;
+    margin: 5px 15px;
+}
+
+.sena, .alura, .unicafam-google p{
+    text-align: center;
 }
 
 .sena img{
@@ -166,6 +173,41 @@ section h2{
 .unicafam-google img{
     width: 100px;
 }
+
+.codigo-secreto{
+    display: inline-block;
+}
+
+.codigo-secreto img{
+    width: 500px;
+}
+
+.datos-proyecto{
+    display: inline-block;
+    vertical-align: 250px;
+}
+
+.datos-proyecto h4{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px 10px;
+}
+
+.datos-proyecto p{
+    margin: 10px 10px;
+}
+
+.boton{
+    background: rgb(95, 95, 231);
+    color: aliceblue;
+    margin: 5px 0 0 10px;
+
+}
+
+.boton:hover{
+    cursor: pointer;
+}
+
 footer{
     text-align: center;
     background: url(/img/imagen-fondo.jpg);

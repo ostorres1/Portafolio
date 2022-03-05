@@ -174,17 +174,22 @@ section h2{
     width: 100px;
 }
 
-.codigo-secreto{
+.codificador{
+    margin-bottom: 40px;
+}
+
+.imagen-proyecto{
     display: inline-block;
 }
 
-.codigo-secreto img{
+.imagen-proyecto img{
     width: 500px;
+    border: 1px solid black;
 }
 
 .datos-proyecto{
     display: inline-block;
-    vertical-align: 250px;
+    vertical-align: top;
 }
 
 .datos-proyecto h4{
@@ -201,6 +206,11 @@ section h2{
     background: rgb(95, 95, 231);
     color: aliceblue;
     margin: 5px 0 0 10px;
+    width: 100px;
+    padding: 10px;
+    font-size: 15px;
+    border: 2px solid rgb(2, 10, 83);
+    border-radius: 8px;
 
 }
 

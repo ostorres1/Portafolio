@@ -151,6 +151,21 @@ section h2{
     font-weight: bold;
 }
 
+.sena, .alura, .unicafam-google{
+    display: inline-block;
+}
+
+.sena img{
+    width: 100px;
+}
+
+.alura img{
+    width: 100px;
+}
+
+.unicafam-google img{
+    width: 100px;
+}
 footer{
     text-align: center;
     background: url(/img/imagen-fondo.jpg);
@@ -161,4 +176,20 @@ footer{
     color: aliceblue;
     margin: 15px auto;
     font-size: 20px;
+}
+
+@media screen and (max-width: 480px){
+    .banner{
+        width: auto;
+    }
+
+    .caja{
+        width: auto;
+        background: blue;
+    }
+
+    main{
+        display: block;
+    }
+
 }

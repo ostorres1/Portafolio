@@ -218,6 +218,28 @@ section h2{
     cursor: pointer;
 }
 
+label{
+    display: block;
+    margin: 10px auto 15px auto;
+    text-decoration: underline;
+}
+
+input{
+    width: 45%;
+    padding: 15px;
+    border: 2px solid rgb(2, 135, 158);
+    border-radius: 8px;
+}
+
+textarea{
+    min-width: 45%;
+    max-width: 45%;
+    min-height: 100px;
+    max-height: 300px;
+    border: 2px solid rgb(2, 135, 158);
+    border-radius: 8px;
+}
+
 footer{
     text-align: center;
     background: url(/img/imagen-fondo.jpg);
